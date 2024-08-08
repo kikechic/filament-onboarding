@@ -9,12 +9,12 @@ use Filament\Support\Assets\Js;
 use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
 use Illuminate\Filesystem\Filesystem;
+use Kikechic\FilamentOnboarding\Commands\FilamentOnboardingCommand;
+use Kikechic\FilamentOnboarding\Testing\TestsFilamentOnboarding;
 use Livewire\Features\SupportTesting\Testable;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Kikechic\FilamentOnboarding\Commands\FilamentOnboardingCommand;
-use Kikechic\FilamentOnboarding\Testing\TestsFilamentOnboarding;
 
 class FilamentOnboardingServiceProvider extends PackageServiceProvider
 {
